@@ -1,10 +1,101 @@
-header{
-    background-color: rgba(81, 106, 245, 0.801); 
-    color: rgb(8, 0, 0);
-}
-body{
-    background-color: blue;
-}
-.cabeçalho {
-width: 10%;
-}
+
+
+    <style>
+        .container {
+            display: flex;
+        }
+        .column {
+            flex-direction: column;
+        }
+        .row {
+            flex-direction: row;
+        }
+        .small {
+            width: 100px;
+            height: 100px;
+        }
+        .large {
+          flex-direction: row;
+            width: 280px;
+            height: 140px;
+            margin: 40px;
+            
+            
+        }
+        .texto1 {
+          color: white;
+          font-size: 13px;
+          position: absolute;
+          top: 330;
+          left: 150;
+          border: 2px solid #0000FF;
+          background-color: #0000FF;
+          margin: 5px;
+         
+        }
+         .texto2 {
+          color: white;
+          font-size: 13px;
+          position: absolute;
+          top: 600;
+          left: 150;
+          border: 2px solid blue;
+          background-color: blue;
+          margin: 5px;
+                }
+        .title {
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        border: 3px solid  #0000FF;
+        background-color: #0000FF;
+        margin: 10px;
+        }
+        body {
+          background-color: #8181F7;
+        }
+        
+         .alunos {
+          color: white;
+          font-size: 13px;
+          position: absolute;
+          top: 900;
+          left: 0;
+          border: 2px solid blue;
+          background-color: blue;
+          margin: 5px;
+                }
+                
+                .horarios {
+          color: white;
+          font-size: 13px;
+          position: absolute;
+          top: 1100;
+          left: 0;
+          border: 2px #0000FF;
+          background-color: #0000FF;
+          margin: 5px;
+                }
+                
+              .boletim {
+          color: white;
+          font-size: 13px;
+          position: absolute;
+          top: 1300;
+          left: 0;
+          border: 2px solid blue;
+          background-color: blue;
+          margin: 5px;
+          height: 175px;
+          width: 450px;
+                }
+                .boletim-image {
+                  position: absolute;
+          top: 1360;
+          left: 0;
+          margin: 5px;
+          height: 175px;
+          width: 400px;
+                }
+    </style>
+</head>
