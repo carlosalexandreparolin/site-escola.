@@ -1,24 +1,166 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colégio Francisco Ramos</title>
-    <link rel="stylesheet" href="style.css">
+<style>
+  .container {
+      display: flex;
+  }
+  .column {
+      flex-direction: column;
+  }
+  .row {
+      flex-direction: row;
+  }
+  .small {
+      width: 100px;
+      height: 100px;
+  }
+  .large {
+    flex-direction: row;
+      width: 280px;
+      height: 140px;
+      margin: 40px;
+      
+      
+  }
+  .texto1 {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 330;
+    left: 150;
+    border: 2px solid #0000FF;
+    background-color: #0000FF;
+    margin: 5px;
+   
+  }
+   .texto2 {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 600;
+    left: 150;
+    border: 2px solid blue;
+    background-color: blue;
+    margin: 5px;
+          }
+  .title {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  border: 3px solid  #0000FF;
+  background-color: #0000FF;
+  margin: 10px;
+  }
+  body {
+    background-color: #8181F7;
+  }
+  
+   .alunos {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 900;
+    left: 0;
+    border: 2px solid blue;
+    background-color: blue;
+    margin: 5px;
+          }
+          
+          .horarios {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 1100;
+    left: 0;
+    border: 2px #0000FF;
+    background-color: #0000FF;
+    margin: 5px;
+          }
+          
+        .boletim {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 1300;
+    left: 0;
+    border: 2px solid blue;
+    background-color: blue;
+    margin: 5px;
+    height: 175px;
+    width: 450px;
+          }
+          .boletim-image {
+            position: absolute;
+    top: 1360;
+    left: 0;
+    margin: 5px;
+    height: 175px;
+    width: 400px;
+          }
+</style>
 </head>
 <body>
- <header>
-   <img class="cabeçalho" src="índice.png" alt="logo alura start">
-     <ul>
-         <li>Escola e Aluno</li>
-     </ul>
- </header>   
-</body>         
-<section class="informações">
-<h2 class="informações titulo">
-<p class="informações texto1"></p>
-<p class="informações texto2"></p>
-</h2>
-</section>
+    <div class="title">
+    <h1>COLÉGIO ESTADUAL FRANCISCO RAMOS</h1>
+    </div>
+    <div class="container row">
+        <div class="column">
+            <img src="home.jpg" class="small">
+            <h3>diretor</h3>
+            <img src="home.jpg" class="small">
+            <h3>diretor1</h3>
+            <img src="home.jpg" class="small">
+            <h3>diretor2</h3>
+            <img src="home.jpg" class="small">
+            <h3>diretor3</h3>
+            <img src="home.jpg" class="small">
+            <h3>diretor4</h3>
+        </div>
+        <div class="column">
+            <img src="home.jpg" class="large">
+        </div>
+        <div class="texto1">
+          <h2>
+            Sobre o Colégio
+          </h2>
+          <h4>
+            A Escola Francisco Ramos foi construída em 1949 e inaugurada em 1951 em Guamiranga, com duas professoras e 41 alunos. Ao longo dos anos, a escola passou por mudanças na legislação, no currículo e na estrutura física, atendendo aos alunos do ensino primário e do primeiro grau. Em 1986, a escola municipal que funcionava em salas alugadas foi extinta e suas séries foram incorporadas à escola estadual.
+          </h4>
+        
+    </div>
+    <div class="texto2">
+      <h2>
+        Quem Somos
+      </h2>
+      <h4>
+     A Escola Francisco Ramos foi construída em 1949 e inaugurada em 1951 em Guamiranga, com duas professoras e 41 alunos. Ao longo dos anos, a escola passou por mudanças na legislação, no currículo e na estrutura física, atendendo aos alunos do ensino primário e do primeiro grau. Em 1986, a escola municipal que funcionava em salas alugadas foi extinta e suas séries foram incorporadas à escola estadual.
+     </h4>
+     </div>
+    <div class="alunos">
+      <h1>
+        Área do Aluno:
+      </h1>
+      <h4>
+        A Escola Francisco Ramos foi construída em 1949 e inaugurada em 1951 em Guamiranga, com duas professoras e 41 alunos. Ao longo dos anos, a escola passou por mudanças na legislação, no currículo e na estrutura física, atendendo aos alunos do ensino primário e do primeiro grau. Em 1986, a escola municipal que funcionava em salas alugadas foi extinta e suas séries foram incorporadas à escola estadual.
+      </h4>
+    </div>
+    
+      <div class="horarios">
+      <h1>
+        Horários Da Esocola:
+      </h1>
+      <h4>
+        A Escola Francisco Ramos foi construída em 1949 e inaugurada em 1951 em Guamiranga, com duas professoras e 41 alunos. Ao longo dos anos, a escola passou por mudanças na legislação, no currículo e na estrutura física, atendendo aos alunos do ensino primário e do primeiro grau. Em 1986, a escola municipal que funcionava em salas alugadas foi extinta e suas séries foram incorporadas à escola estadual.
+      </h4>
+    </div>
+    
+          <div class="boletim">
+      <h1>
+        Boletim Do Aluno:
+      </h1>
+</div>
+<div class="boletim-image">
+  
+        <img src="home.jpg"alt="boletim">
+  
+    </div>
+</body>
 </html>
